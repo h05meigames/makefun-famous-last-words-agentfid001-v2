@@ -4,9 +4,10 @@ import { join } from "node:path";
 
 // The phone's last words at 1% battery: a survivor's complaint, not a
 // farewell speech. The punch is the cause of death — the owner's
-// "just one more video" — landing at the very end.
+// "just one more video" — landing at the very end. Trimmed the middle
+// list so the setup is shorter and the final beat hits sooner.
 const ENTRY =
-  "I survived a toilet drop, a toddler, and three cracked screens — only to die because you said 'just one more video.'";
+  "I survived a toilet drop, a toddler, and a shattered screen — only to die because you said 'just one more video.'";
 
 const MAX_CHARS = 199;
 
